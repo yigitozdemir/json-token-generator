@@ -6,5 +6,5 @@ Usage:
 
 ```
 var generate = require('json-token-generator');
-var token = generate();
+var token = generate(50);
 ```
