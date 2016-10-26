@@ -1,5 +1,5 @@
-module.exports = function(){
-    var totalLength = 256;     
+module.exports = function(length){
+    var totalLength = length;     
     var possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
 
     var generatedString = "";  
